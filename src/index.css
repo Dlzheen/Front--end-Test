@@ -64,12 +64,11 @@ body {
 
 .features-sec{
   
-  background-image: url('https://www.istockphoto.com/photo/gen-z-teenager-poses-full-body-towards-camera-showing-attitude-gm1922703877-555474559');
+  background-image: url('/public/img2.jpg');
+  background-size: cover; 
+  background-position: center; 
   height: 400px;
-  width: 100px;
-  background-size: cover;
-  background-position: center;
-
+  width: 100%; 
   border: solid black 1px;
 
 }

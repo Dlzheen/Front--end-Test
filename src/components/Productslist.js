@@ -8,7 +8,7 @@ const Productslist = ({products}) => {
             {products.map(product => (
                
                 <Col  className="d-flex flex-column align-items-center">
-                <div className="text-center">
+                <div className="text-center card-container">
 
                
                <Card className="bg-light mb-4" style={{ width: '12rem', border: 'none', margin : '10px 0px'}}  key={product.id}>
