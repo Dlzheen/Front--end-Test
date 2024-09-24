@@ -1,14 +1,17 @@
 import {Button, Card, Container, Row, Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Productslist = ({products, cat}) => {
+const Productslist = ({products}) => {
     return (
        <Container >
-        <Row>
+        <Row className="justify-content-center align-items-center h-100">
            
             {products.map(product => (
                
-                <Col>
-               <Card className="m-2 bg-light" style={{ width: '12rem', border: 'none'}}  key={product.id}>
+                <Col  className="d-flex flex-column align-items-center">
+                <div className="text-center">
+
+               
+               <Card className="bg-light mb-4" style={{ width: '12rem', border: 'none', margin : '10px 0px'}}  key={product.id}>
                <Card.Img variant="top" src={product.img} /> 
 
                <Card.Body>
@@ -18,6 +21,7 @@ const Productslist = ({products, cat}) => {
                  </div>
                </Card.Body>
              </Card>
+             </div>
                 </Col>
                
             
