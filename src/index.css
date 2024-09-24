@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(21, 53, 81);
+  
+}
+.container-1{
+  background-color: lightgray;
+}
+ .navv .nav-link{
+  font-size: 13px;
+  color: #404040;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+ 
+ 
+}
+.navv Nav Nav.Link{
+ 
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+ 
+}
+.navv .nav-link:hover{
+ 
+  color: #A8A8A8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.brand-container{
+
+@media (min-width: 768px) {
+
+ padding: 4px 50px;
+ 
+}
+
+
+}
+.Brands{
+  background-color: white;
+}
+.img-row{
+  background-color: aqua;
+  padding-Right : 100px;
+}
+.main-img{
+  width: 300px;
+
+  @media (max-width: 768px )  and (min-width: 576px ){
+
+    width: 220px;
+    
+   }
+
+   @media (max-width: 580px )  {
+
+    width: 180px;
+  }
+  @media (max-width: 480px )  {
+
+    width: 150px;
+  }
+  
+}
+
+.features-sec{
+  
+  background-image: url('https://www.istockphoto.com/photo/gen-z-teenager-poses-full-body-towards-camera-showing-attitude-gm1922703877-555474559');
+  height: 400px;
+  width: 100px;
+  background-size: cover;
+  background-position: center;
+
+  border: solid black 1px;
+
 }
